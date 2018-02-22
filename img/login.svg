@@ -1,0 +1,8 @@
+<svg height="400" version="1.1" width="400" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="198" cy="241.2" fill="#fff" rx="135" ry="85.5" stroke="#080808" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+  <ellipse cx="199" cy="97.7" fill="#fff" rx="84" ry="83" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+  <rect fill="#fff" height="115" stroke="#050505" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5" width="270" x="63" y="237.7"/>
+  <text fill="#030303" font-size="90.9" stroke="none" x="88" y="321.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1">
+    Login
+  </text>
+</svg>

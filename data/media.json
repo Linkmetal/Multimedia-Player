@@ -1,0 +1,38 @@
+[
+    {
+        "type": "audio",
+        "title": "Ayax - Rizando el rizo",
+        "url": "media/AYAX - RIZANDO EL RIZO (PROD RUDESKILLZ) - VIDEOCLIP",
+        "extensions": [".mp3"]
+    },
+    {
+        "type": "video",
+        "title": "Canserbero - Es épico",
+        "url": "media/Es épico-Canserbero (Video)",
+        "extensions": [".mp4", ".mov"]
+    },
+    {
+        "type": "audio",
+        "title": "Ayax y Prok - Reproches",
+        "url": "media/AYAX Y PROK - REPROCHES (PROD BLASFEM)  VIDEOCLIP",
+        "extensions": [".ogg"]
+    },
+    {
+        "type": "video",
+        "title": "ZASKO MASTER (Mejores Momentos) Letra y rimas",
+        "url": "media/ZASKO MASTER (Mejores Momentos) Letra y rimas",
+        "extensions": [".mp4", ".mov"]
+    },
+    {
+        "type": "audio",
+        "title": "Prok - Una vuelta al mundo",
+        "url": "media/PROK - UNA VUELTA AL MUNDO (VIDEOCLIP)",
+        "extensions": [".mp3", ".ogg"]
+    },
+    {
+        "type": "video",
+        "title": "Los Momentos Mas Locos De Assasins Creed Origins",
+        "url": "media/Los MOMENTOS MÁS LOCOS de ASSASSINS CREED ORIGINS",
+        "extensions": [".mp4", ".mov"]
+    }
+]

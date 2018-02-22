@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temaso.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="mainContainer"git >
+        <div id="header">
+            <img id="logo" src="img/temaso.svg"/><span class="title">Temaso.com</span><img id="login" src="img/login.svg"/>
+        </div>
+        <div id="content">
+            <div id="player">
+                <video poster="/img/audio.svg" src="media/AYAX - RIZANDO EL RIZO (PROD RUDESKILLZ) - VIDEOCLIP.mp3" id="display" type="video/mp4"></video></video>
+                <div id="controls">
+                    <div id="timeBar1"><div id="timeBar2"></div></div>
+                    <div class="control" onclick="prev()" id="prev"></div>
+                    <div class="control" onclick="backward()" id="backward"></div>
+                    <div class="control" onclick="playMedia()" id="play"></div>
+                    <div class="control" onclick="forward()" id="forward"></div>
+                    <div class="control" onclick="next()" id="next"></div>
+                    <div class="time" id="time">00:00 / 00:00</div>
+                </div>
+            </div>
+            <div id="playlist"></div>
+        </div>
+        <div id="footer">
+            
+        </div>
+    </div>
+</body>
+</html>
