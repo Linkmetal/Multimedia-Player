@@ -9,10 +9,10 @@ if($(document).ready()){
         mediaData = data;
         for(let i = 0; i < data.length; i++){
             if(data[i].type == "audio"){
-                $("#playlist").append("<div class='media' id='media" + i + "'><img class='typeLogo' src='/img/audio.svg'/><span>" + data[i].title + "</span>");
+                $("#playlist").append("<div class='media' id='media" + i + "'><img class='typeLogo' src='img/audio.svg'/><span>" + data[i].title + "</span>");
             }
             else{
-                $("#playlist").append("<div class='media' id='media" + i + "'><img class='typeLogo' src='/img/video.svg'/><span>" + data[i].title + "</span>");
+                $("#playlist").append("<div class='media' id='media" + i + "'><img class='typeLogo' src='img/video.svg'/><span>" + data[i].title + "</span>");
             }
         }
         $(".media").click(changeMedia);
@@ -27,13 +27,13 @@ function playMedia(){
     totalTime = getTotalTime();
     setInterval(changeTime, 1000);
      $("#display")[0].play();
-     $("#play").css("background-image", "img/pause.svg");
+     $("#play").css("background-image", "url('img/pause.svg')");
      $("#play").attr("onclick", "pauseMedia()");
 }
 
 function pauseMedia(){
     $("#display")[0].pause();
-    $("#play").css("background-image", "img/play.svg");
+    $("#play").css("background-image", "url('img/play.svg')");
     $("#play").attr("onclick", "playMedia()");
 }
 

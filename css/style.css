@@ -20,13 +20,13 @@ html, body {
   flex-flow: row nowrap;
   justify-items: space-between;
   align-items: center;
-  background-image: "img/head.jpg";
+  background-image: url("img/head.jpg");
   width: 100%;
   height: 15%;
 }
 
 #content {
-  background-image: "img/bg.png";
+  background-image: url("img/bg.png");
   display: flex;
   flex-flow: row nowrap;
   height: 80%;
@@ -34,7 +34,7 @@ html, body {
 }
 
 #footer {
-  background-image: "img/bg.png";
+  background-image: url("img/bg.png");
   height: 5%;
   width: 100%;
   border: solid thick black;
@@ -89,24 +89,24 @@ html, body {
 }
 
 #play {
-  background-image: "img/play.svg";
+  background-image: url("img/play.svg");
 }
 
 #forward {
-  background-image: "img/forward.svg";
+  background-image: url("img/forward.svg");
 }
 
 #backward {
-  background-image: "img/forward.svg";
+  background-image: url("img/forward.svg");
   transform: scaleX(-1);
 }
 
 #next {
-  background-image: "img/next.svg";
+  background-image: url("img/next.svg");
 }
 
 #prev {
-  background-image: "img/next.svg";
+  background-image: url("img/next.svg");
   transform: scaleX(-1);
 }
 
@@ -169,7 +169,7 @@ html, body {
 
 .playing {
   background-color: grey;
-  background-image: "img/play.svg";
+  background-image: url("img/play.svg");
   background-repeat: no-repeat;
   background-size: 5%;
   background-position-x: 100%;
