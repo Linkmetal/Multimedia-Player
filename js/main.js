@@ -110,12 +110,12 @@ function getCurrentTime(){
 }
 
 function forward(){
-    $("#display")[0].currentTime += 10;
+    $("#display")[0].currentTime = $("#display")[0].currentTime + 10;
     changeTime();
 }
 
 function backward(){
-    $("#display")[0].currentTime -= 10;
+    $("#display")[0].currentTime = $("#display")[0].currentTime - 10;
     changeTime();
 }
 
