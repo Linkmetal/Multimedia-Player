@@ -20,13 +20,13 @@ html, body {
   flex-flow: row nowrap;
   justify-items: space-between;
   align-items: center;
-  background-image: url("/img/head.jpg");
+  background-image: "img/head.jpg";
   width: 100%;
   height: 15%;
 }
 
 #content {
-  background-image: url("/img/bg.png");
+  background-image: "img/bg.png";
   display: flex;
   flex-flow: row nowrap;
   height: 80%;
@@ -34,7 +34,7 @@ html, body {
 }
 
 #footer {
-  background-image: url("/img/bg.png");
+  background-image: "img/bg.png";
   height: 5%;
   width: 100%;
   border: solid thick black;
@@ -49,7 +49,7 @@ html, body {
   display: flex;
   flex-flow: column nowrap;
   border: solid 20px transparent;
-  border-image: url("/img/head.jpg") 15 round;
+  border-image: "img/head.jpg" 15 round;
   height: 100%;
   width: 25%;
 }
@@ -89,24 +89,24 @@ html, body {
 }
 
 #play {
-  background-image: url("img/play.svg");
+  background-image: "img/play.svg";
 }
 
 #forward {
-  background-image: url("img/forward.svg");
+  background-image: "img/forward.svg";
 }
 
 #backward {
-  background-image: url("img/forward.svg");
+  background-image: "img/forward.svg";
   transform: scaleX(-1);
 }
 
 #next {
-  background-image: url("img/next.svg");
+  background-image: "img/next.svg";
 }
 
 #prev {
-  background-image: url("img/next.svg");
+  background-image: "img/next.svg";
   transform: scaleX(-1);
 }
 
@@ -169,7 +169,7 @@ html, body {
 
 .playing {
   background-color: grey;
-  background-image: url("/img/play.svg");
+  background-image: "img/play.svg";
   background-repeat: no-repeat;
   background-size: 5%;
   background-position-x: 100%;
