@@ -4,7 +4,7 @@ let totalTime = "00:00";
 let currentMedia = 0;
 
 if($(document).ready()){
-    $.getJSON("/data/media.json", function(data){
+    $.getJSON("data/media.json", function(data){
         console.log(data);
         mediaData = data;
         for(let i = 0; i < data.length; i++){
@@ -27,13 +27,13 @@ function playMedia(){
     totalTime = getTotalTime();
     setInterval(changeTime, 1000);
      $("#display")[0].play();
-     $("#play").css("background-image", "url('/img/pause.svg')");
+     $("#play").css("background-image", "img/pause.svg");
      $("#play").attr("onclick", "pauseMedia()");
 }
 
 function pauseMedia(){
     $("#display")[0].pause();
-    $("#play").css("background-image", "url('/img/play.svg')");
+    $("#play").css("background-image", "img/play.svg");
     $("#play").attr("onclick", "playMedia()");
 }
 
