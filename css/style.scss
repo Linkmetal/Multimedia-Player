@@ -90,25 +90,25 @@ html, body{
 }
 
 #play{
-    background-image: url("/img/play.svg");
+    background-image: url("img/play.svg");
 }
 
 #forward{
-    background-image: url("/img/forward.svg");
+    background-image: url("img/forward.svg");
 }
 
 
 #backward{
-    background-image: url("/img/forward.svg");
+    background-image: url("img/forward.svg");
     transform:scaleX(-1);
 }
 
 #next{
-    background-image: url("/img/next.svg");
+    background-image: url("img/next.svg");
 }
 
 #prev{
-    background-image: url("/img/next.svg");
+    background-image: url("img/next.svg");
     transform:scaleX(-1);
 }
 
