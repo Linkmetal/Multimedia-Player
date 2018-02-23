@@ -95,8 +95,8 @@ function getTotalTime() {
 }
 
 function getCurrentTime() {
-    let seg = Math.round($("#display")[0].currentTime);
-    let min = Math.round(seg / 60);
+    let seg = Math.floor($("#display")[0].currentTime);
+    let min = Math.floor(seg / 60);
     let result = "";
     seg = seg % 60;
     if (min <= 9) {
