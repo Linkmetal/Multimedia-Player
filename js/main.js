@@ -17,7 +17,7 @@ if ($(document).ready()) {
         $("#volume").slider({
             min: 0,
             max: 100,
-            value: 0,
+            value: 100,
             range: "min",
             slide: function (event, ui) {
                 setVolume(ui.value / 100);
