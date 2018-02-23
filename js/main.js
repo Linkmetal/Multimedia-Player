@@ -69,7 +69,7 @@ function changeTime() {
     $("#timeBar2").css("width", ($("#display")[0].currentTime / $("#display")[0].duration) * 100 + "%");
     if ($("#display")[0].currentTime == $("#display")[0].duration) {
         currentMedia++;
-        if (currentMedia == mediaData.length - 1) {
+        if (currentMedia == mediaData.length) {
             currentMedia = 0;
         }
         $(".media")[currentMedia].click();
